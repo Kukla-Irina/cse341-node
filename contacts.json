@@ -1,0 +1,23 @@
+{
+    "contact": {
+      "firstName": "Marina",
+      "lastName": "Kukla",
+      "email": "marinakukla@mail.com",
+      "favoriteColor": "Green",
+      "birthday": "03/09/73"
+    },
+    "contact2": {
+      "firstName": "Maria",
+      "lastName": "Ivanova",
+      "email": "mariaivaniva@mail.com",
+      "favoriteColor": "Red",
+      "birthday": "06/08/92"
+    },
+    "contact3": {
+      "firstName": "Diana",
+      "lastName": "Petrova",
+      "email": "dianapetrova@mail.com",
+      "favoriteColor": "Blue",
+      "birthday": "01/12/92"
+    }
+  }
