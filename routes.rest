@@ -7,3 +7,13 @@ GET http://localhost:8080/contacts/644d953137bceff74b8f0011
 GET http://localhost:8080/contacts/644d955c37bceff74b8f0012
 ###
 GET http://localhost:8080/contacts/644d956737bceff74b8f0013
+
+// PRODUCTION Deploy 
+### 
+GET https://cse341-node2023l2.onrender.com/contacts
+### 
+GET https://cse341-node2023l2.onrender.com/contacts/644d953137bceff74b8f0011
+### 
+GET https://cse341-node2023l2.onrender.com/contacts/644d955c37bceff74b8f0012
+### 
+GET https://cse341-node2023l2.onrender.com/contacts/644d956737bceff74b8f0013
