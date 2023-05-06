@@ -17,3 +17,60 @@ GET https://cse341-node2023l2.onrender.com/contacts/644d953137bceff74b8f0011
 GET https://cse341-node2023l2.onrender.com/contacts/644d955c37bceff74b8f0012
 ### 
 GET https://cse341-node2023l2.onrender.com/contacts/644d956737bceff74b8f0013
+
+// LOCALHOST
+
+### Create contact 
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
+
+{
+  "firstName": "Anna",
+  "lastName": "Smirnova",
+  "email": "asmirnova@mail.com",
+  "favoriteColor": "Blue",
+  "birthday": "12/09/73"
+}
+
+### PUT contact 
+PUT http://localhost:8080/contacts/6456dfb9965d78362f30d44c HTTP/1.1
+content-type: application/json
+
+{
+  "firstName": "Anna",
+  "lastName": "Smirnova",
+  "email": "asmirnova@mail.com",
+  "favoriteColor": "Red",
+  "birthday": "12/09/73"
+}
+
+### DELETE contact 
+DELETE http://localhost:8080/contacts/6456dfb9965d78362f30d44c HTTP/1.1
+
+// PRODUCTION Deploy 
+### Create contact 
+POST https://cse341-node2023l2.onrender.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+  "firstName": "Anna",
+  "lastName": "Smirnova",
+  "email": "asmirnova@mail.com",
+  "favoriteColor": "Blue",
+  "birthday": "12/09/73"
+}
+
+### PUT contact 
+PUT https://cse341-node2023l2.onrender.com/contacts/6220bcb39cd507e920c75a0b HTTP/1.1
+content-type: application/json
+
+{
+  "firstName": "Anna",
+  "lastName": "Smirnova",
+  "email": "asmirnova@mail.com",
+  "favoriteColor": "Red",
+  "birthday": "12/09/73"
+}
+
+### DELETE contact 
+DELETE https://cse341-node2023l2.onrender.com/contacts/6220e34083149913680f9a64 HTTP/1.1
