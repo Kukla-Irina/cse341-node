@@ -22,7 +22,7 @@
       "get": {
         "description": "",
         "produces": [
-          "application/json"
+          
         ],
         "parameters": [],
         "responses": {
